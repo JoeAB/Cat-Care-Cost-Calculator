@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cat Care Cost Calculator</string>
+    <string name="numCatHint">Enter the number of cats being cared for</string>
+    <string-array name="foods">
+        <item>Cheap Store Brand Cat Food - $72</item>
+        <item>Premium Name Brand Cat Food - $120</item>
+        <item>Healthy Choice Organic Cat Food - $192</item>
+    </string-array>
+    <string-array name="litters">
+        <item>Clay: Clumping - $144.00</item>
+        <item>Clay: Non-Clumping - $119.88</item>
+        <item>Crystal - $200.28</item>
+        <item>Natural and Eco-Friendly - $179.88</item>
+    </string-array>
+    <string name="vetVisitsHint">Enter the number of yearly vet visits</string>
+    <string name="toggleHeartWork">Select for heart worm protection</string>
+    <string name="toggleFleaPrevention">Select for flea prevention</string>
+    <string name="toggleRabies">Select for rabies vaccine</string>
+    <string name="boardingDays">Enter days using boarding services</string>
+    <string name="toggleSpayingNeut">Select if needs to be spayed/neutered</string>
+    <string name="numGroomerV">Enter the number of groomer visits</string>
+    <string name="calcCost">Calculate Costs</string>
+    <string name="displayPic">Cat Picture</string>
+    <string name="startCalc">Start Calculator</string>
+    <string name="catResources">Helpful Resources for Cat Owners</string>
+    <string name="catPics">Cat Picture Gallery</string>
+    <string name="txtTitle">Cat Care Cost Calculator</string>
+    <string name="splashDescription">Image of a cat being cared for</string>
+
+</resources>

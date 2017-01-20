@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:weightSum="1">
+    <EditText
+            android:layout_width="337dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/numCats" android:layout_gravity="center_horizontal" android:hint="@string/numCatHint"
+            android:gravity="center"/>
+    <Spinner
+            android:layout_width="334dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/foodType" android:layout_gravity="center_horizontal" android:entries="@array/foods"/>
+    <Spinner
+            android:layout_width="334dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/catLitterSpinner" android:layout_gravity="center_horizontal"
+            android:entries="@array/litters"/>
+    <EditText
+            android:layout_width="337dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/vetVisits" android:layout_gravity="center_horizontal"
+            android:hint="@string/vetVisitsHint" android:gravity="center"/>
+    <EditText
+            android:layout_width="337dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/catBoarding"
+            android:hint="@string/boardingDays" android:gravity="center" android:layout_gravity="center_horizontal"/>
+    <EditText
+            android:layout_width="337dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/groomerVisits" android:layout_gravity="center_horizontal"
+            android:hint="@string/numGroomerV" android:gravity="center"/>
+    <CheckBox
+            android:layout_width="336dp"
+            android:layout_height="wrap_content"
+            android:text="@string/toggleHeartWork"
+            android:id="@+id/heartWorm" android:layout_gravity="center_horizontal"/>
+    <CheckBox
+            android:layout_width="336dp"
+            android:layout_height="wrap_content"
+            android:text="@string/toggleFleaPrevention"
+            android:id="@+id/fleaPre" android:layout_gravity="center_horizontal"/>
+    <CheckBox
+            android:layout_width="336dp"
+            android:layout_height="wrap_content"
+            android:text="@string/toggleRabies"
+            android:id="@+id/rabiesVac" android:layout_gravity="center_horizontal"/>
+    <CheckBox
+            android:layout_width="336dp"
+            android:layout_height="wrap_content"
+            android:text="@string/toggleSpayingNeut"
+            android:id="@+id/spayNeut" android:layout_gravity="center_horizontal"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/calcCost"
+            android:id="@+id/calculateCost" android:layout_gravity="center_horizontal"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/result" android:layout_gravity="center_horizontal"/>
+</LinearLayout>
+
